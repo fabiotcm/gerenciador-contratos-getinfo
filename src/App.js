@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
+import ContratoAdd from './components/ContratoAdd';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="wrapper">
       <Navbar />
       <Sidebar />
+      <ContratoAdd/>
 
       {/* Conteúdo principal da sua aplicação */}
       <div className="content-wrapper">
