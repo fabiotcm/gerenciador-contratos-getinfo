@@ -9,10 +9,10 @@ function App() {
     <div className="wrapper">
       <Navbar />
       <Sidebar />
-      <ContratoAdd/>
 
       {/* Conteúdo principal da sua aplicação */}
       <div className="content-wrapper">
+      <ContratoAdd/>
         <section className="content">
           <div className="container-fluid">
             {/* Seu conteúdo aqui */}
