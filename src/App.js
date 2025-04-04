@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import ContratoAdd from './components/ContratoAdd';
+import CadastrarCliente from './components/CadastrarCliente';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 
       {/* Conteúdo principal da sua aplicação */}
       <div className="content-wrapper">
-      <ContratoAdd/>
+      <CadastrarCliente/>
         <section className="content">
           <div className="container-fluid">
             {/* Seu conteúdo aqui */}
