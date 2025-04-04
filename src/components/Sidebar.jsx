@@ -16,11 +16,34 @@ const Sidebar = () => {
           <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             {/* Adicione aqui os itens do menu da barra lateral */}
             <li className="nav-item">
-              <a href="../widgets.html" className="nav-link">
+              <a href="../" className="nav-link">
                 <i className="nav-icon fas fa-th"></i>
                 <p>
-                  Widgets
-                  <span className="right badge badge-danger">New</span>
+                  Cadastrar cliente
+                </p>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="../Contrato" className="nav-link">
+                <i className="nav-icon fas fa-th"></i>
+                <p>
+                  Cadastrar contrato
+                </p>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="../Aditivo" className="nav-link">
+                <i className="nav-icon fas fa-th"></i>
+                <p>
+                  Inserir aditivo
+                </p>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="../Repactuacao" className="nav-link">
+                <i className="nav-icon fas fa-th"></i>
+                <p>
+                  Inserir repactuação
                 </p>
               </a>
             </li>
