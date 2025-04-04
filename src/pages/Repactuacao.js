@@ -1,11 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import CadastrarContrato from "../components/CadastrarContrato";
+import InserirRepactuacao from "../components/InserirRepactuacao";
 
-class CadastroContrato extends React.Component {
-
-  render() {
+class Repactuacao extends React.Component {
+  render(){
     return(
       <div className="wrapper">
         <Navbar />
@@ -15,14 +14,14 @@ class CadastroContrato extends React.Component {
         <div className="content-wrapper">
           <section className="content">
             <div className="container-fluid">
-              <CadastrarContrato/>
+              <InserirRepactuacao/>
               {/* Seu conteúdo aqui */}
             </div>
           </section>
         </div>
         {/* Footer e outros elementos do AdminLTE */}
     </div>
-    )
+    );
   }
 }
-export default CadastroContrato;
+export default Repactuacao;
